@@ -1,6 +1,6 @@
 {
-    "title": "Clean Blog Jekyll",
-    "name": "startbootstrap-clean-blog-jekyll",
+    "title": "Intedisciplinary Education Guide",
+    "name": "IEGuide",
     "version": "4.0.5",
     "description": "Clean Blog is a Medium inspired blog theme for Bootstrap.",
     "keywords": [
@@ -11,9 +11,9 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/clean-blog",
+    "homepage": "https://ieguide.github.io",
     "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll/issues",
+        "url": "https://github.com/IEGuide/ieguide.github.io/issues",
         "email": "feedback@startbootstrap.com"
     },
     "license": "MIT",
@@ -23,7 +23,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-clean-blog-jekyll.git"
+        "url": "https://github.com/IEGuide/ieguide.github.io.git"
     },
     "dependencies": {
         "bootstrap": "4.3.1",
