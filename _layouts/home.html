@@ -4,7 +4,7 @@ layout: default
 
 <!-- Page Header -->
 {% if page.background %}
-<header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}')">
+<header class="masthead" style="background-image: url('{{ page.background | prepend: site.baseurl | replace: '//', '/' }}'); margin-bottom: 0px !important;">
   {% else %}
   <header class="masthead">
     {% endif %}
@@ -23,43 +23,42 @@ layout: default
     </div>
   </header>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
-
-        {{ content }}
-
-        <!-- Home Post List -->
-        {% for post in site.posts limit : 5 %}
-
-        <article class="post-preview">
-          <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
-            <h2 class="post-title">{{ post.title }}</h2>
-            {% if post.subtitle %}
-            <h3 class="post-subtitle">{{ post.subtitle }}</h3>
-            {% else %}
-            <h3 class="post-subtitle">{{ post.excerpt | strip_html | truncatewords: 15 }}</h3>
-            {% endif %}
-          </a>
-          <p class="post-meta">Posted by
-            {% if post.author %}
-            {{ post.author }}
-            {% else %}
-            {{ site.author }}
-            {% endif %}
-            on
-            {{ post.date | date: '%B %d, %Y' }} &middot; {% include read_time.html content=post.content %}</p>
-        </article>
-
-        <hr>
-
-        {% endfor %}
-
-        <!-- Pager -->
-        <div class="clearfix">
-          <a class="btn btn-primary float-right" href="{{"/posts" | relative_url }}">View All Posts &rarr;</a>
-        </div>
-
+  <div class="container-fluid bg-secondary text-light p-5">
+      <div class="row align-items-center">
+          <div class="col-lg-8 col-md-10 mx-auto">
+              <h1 class="display-3">What</h1>
+              <h3>creates interdisciplinary learners?</h3>
+              <p>
+                  There are several levels to interdisciplinary learning: students may experience it by taking a class that combines several subjects, or be a part of a program that is intentionally interdisciplinary, such as the Bren school, or even attend a liberal arts college where they become interdisciplinary through the nature of their coursework <a class ="text-light" href="#" >(Read More...)</a>
+              </p>
+              
+          </div>
       </div>
-    </div>
   </div>
+
+  <div class="container-fluid bg-dark text-light p-5">
+      <div class="row align-items-center" >
+          <div class="col-lg-8 col-md-10 mx-auto">
+              <h1 class="display-3">Why</h1>
+              <h3>teach Interdisciplinary Courses?</h3>
+              <p>
+                  Interdisciplinary courses and learning are a prominent trend across the scholarship of teaching and learning, as well as academia at large.  Before disentangling what constitutes effective interdisciplinary learning, and how to achieve that, it’s worth stepping back and asking: why be interdisciplinary at all? What about interdisciplinarity is useful and important to students? Why not stick with more traditional disciplinary studies? <a class ="text-light" href="#" >(Read More...)</a>
+              </p>
+          </div>
+      </div>
+  </div>
+
+  <div class="container-fluid bg-secondary text-light p-5">
+      <div class="row align-items-center" >
+          <div class="col-lg-8 col-md-10 mx-auto">
+              <h1 class="display-3">How</h1>
+              <h3>to prepare students for interdisciplinary research?</h3>
+              <p>
+                  We know that communication and group work with people from diverse backgrounds are key components of interdisciplinary learning and research, but how do we logistically make this happen? Whether the goal is to teach an interdisciplinary course or creating a team of physical scientists, economists, and political scientists to investigate an environmental issue, there are several steps that can be taken to have a successful outcome. 
+                  <a class ="text-light" href="#" >(Read More...)</a>
+              </p>
+          </div>
+      </div>
+  </div>
+
+
