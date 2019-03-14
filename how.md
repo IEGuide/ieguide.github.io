@@ -1,6 +1,6 @@
 ---
 layout: page
-title: How do we teach interdisciplinary topics
+title: How do we teach interdisciplinary topics?
 description:  and prepare students for interdisciplinary research?
 background: '/img/posts/07.jpg'
 ---

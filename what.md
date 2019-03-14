@@ -14,8 +14,6 @@ There are several levels to interdisciplinary learning: students may experience 
 
 In a survey of a UCSB general education natural history course, with a combination of STEM and humanities students, we found that students would rather have separate subjects taught in separate courses (Fig. 1) despite valuing an interdisciplinary/liberal arts education overall (Fig. 2). Students felt that they would rather have strong backgrounds in each separate subject before making the connections between them, however, being in this class that combined history and natural science introduced them to the potential of interdisciplinary learning and the importance of being well-rounded.
 
-Several studies of interdisciplinary education programs including a sciences and engineering program (Gero 2017), engineering and English (Wojahn, Riley, & Park, 2004), and sustainability (Feng 2012), also found that students were hesitant at the outset of these courses.
-
 
 <div class="text-center">
   <img src="/img/charts/chart1.png" alt="alt">
@@ -26,6 +24,8 @@ Several studies of interdisciplinary education programs including a sciences and
   <img src="/img/charts/chart2.png" alt="alt">
   <figcaption><small>Figure 2. Survey of undergraduate students in a general education natural history course (N=39). Mean equals 4.0 if choices ranked sequentially with strongly disagree as 1 and strongly agree as 5.</small></figcaption>
 </div>
+
+Several studies of interdisciplinary education programs including a sciences and engineering program (Gero 2017), engineering and English (Wojahn, Riley, & Park, 2004), and sustainability (Feng 2012), also found that students were hesitant at the outset of these courses.
 
 Several of our faculty interviewees would likely be unsurprised upon reading the findings of the above researchers:
 
@@ -57,8 +57,7 @@ Several of our faculty interviewees would likely be unsurprised upon reading the
 
 If reality does not divide itself into discrete disciplines, as Drs. Porter and Awramik believe, then it stands to reason that students would appreciate this sort of education because it is a fuller and more accurate illustration of what they are trying to learn. If academics and researchers believe that interdisciplinarity is the reality, then education must in some way reflect that. Sharing this ‘true’ interdisciplinary reality with the student(s) helps break down the barriers between teacher and student making classroom learning a more “authentic” learning (borrowing the term from Brown, Collins, & Duguid.’s [1989] authentic activity).
  
-For graduate students, our interviewees have more faith in their ability to recognize the benefits of interdisciplinary education or research for themselves.
-
+For graduate students, our interviewees have more faith in students' ability to create interdisciplinary collaborations based on their own experiences and interests. 
 
 
 
@@ -75,13 +74,14 @@ For graduate students, our interviewees have more faith in their ability to reco
 {% endfor %}
 </div>
 
+On Master's students in an interdisciplinary environmental program:
 
 <div>
 {% for post in site.posts  %}
     {% if post.title contains "Frew" %}           
         <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
             <blockquote class="blockquote">
-            <p class="mb-0">“because of this incredible range of backgrounds in the Master's students you know they're in a class with somebody who you know strengthens in econ and strength the geology and the strength is in policy. And so they wind up helping each other. And so a lot of this cross disciplinary experience happens just while they're working on their homework.”</p>
+            <p class="mb-0">“because of this incredible range of backgrounds in the Master's students, you know they're in a class with somebody whose strength is in econ, and strength in geology, and strength is in policy. And so they wind up helping each other. And so a lot of this cross disciplinary experience happens just while they're working on their homework.”</p>
             <footer class="blockquote-footer pb-0"> Dr. James Frew</footer>
             </blockquote>
         </a>          

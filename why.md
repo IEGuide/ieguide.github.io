@@ -5,7 +5,7 @@ description: Why teach interdisciplinary
 background: '/img/posts/03.jpg'
 ---
 
-## Why teach interdisciplinary
+## Why teach interdisciplinary?
 
 Interdisciplinary courses and learning are a prominent trend across the scholarship of teaching and learning, as well as academia at large.  Before disentangling what constitutes effective interdisciplinary learning, and how to achieve that, it’s worth stepping back and asking: why be interdisciplinary at all? What about interdisciplinarity is useful and important to students? Why not stick with more traditional disciplinary studies?
 <div>
@@ -29,7 +29,7 @@ Though this list of benefits is far-reaching, it mirrors the motivations referen
     {% if post.title contains "Frew" %}           
         <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
             <blockquote class="blockquote">
-            <p class="mb-0">“Bullshit in two languages...you can understand where the disciplines overlap and how to communicate across it - [interdisciplinarity improves] your ability to understand and communicate.”</p>
+            <p class="mb-0">“[Being able to] bullshit in two languages...you can understand where the disciplines overlap and how to communicate across it - [interdisciplinarity improves] your ability to understand and communicate.”</p>
             <footer class="blockquote-footer pb-0"> Dr. James Frew</footer>
             </blockquote>
         </a>          
