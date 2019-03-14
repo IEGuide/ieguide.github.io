@@ -1,11 +1,11 @@
 ---
 layout: page
 title: Why teach interdisciplinary
-description: Why teach interdisciplinary
+description:
 background: '/img/posts/03.jpg'
 ---
 
-## Why teach interdisciplinary?
+## What motivates interdisciplinary courses?
 
 Interdisciplinary courses and learning are a prominent trend across the scholarship of teaching and learning, as well as academia at large.  Before disentangling what constitutes effective interdisciplinary learning, and how to achieve that, it’s worth stepping back and asking: why be interdisciplinary at all? What about interdisciplinarity is useful and important to students? Why not stick with more traditional disciplinary studies?
 <div>
