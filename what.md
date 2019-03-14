@@ -5,7 +5,7 @@ title: What creates interdisciplinary learners?
 background: '/img/posts/01.jpg'
 ---
 
-## Summary
+## Key components of interdisciplinary learning
 
 There are several levels to interdisciplinary learning: students may experience it by taking a class that combines several subjects, or be a part of a program that is intentionally interdisciplinary, such as the Bren school, or even attend a liberal arts college where they become interdisciplinary through the nature of their coursework. No matter the level a student is at in their education, there are patterns that emerge that foster interdisciplinarity in their learning. From our own personal experiences, talking to established faculty, and the journal papers below, we found that these patterns include when students go outside of their comfort zone and interact with other students from different backgrounds in both formal and informal settings, it creates an invaluable experience that leads to interdisciplinarity in a student. 
 
