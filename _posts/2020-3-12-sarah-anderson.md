@@ -42,3 +42,4 @@ And I see that a little in SERI, where we get really concrete sometimes to the p
  
 So this is where, I think this tension in interdisciplinary collaborations between your individual disciplinary self interest and like a vision of a bigger interdisciplinary project that is beyond the paper. That might be the crux of that project. It really bites. Right. And [persons] bent is always toward the self interested disciplinary, what do I get out of it? I am participating in this collaboration because I see this one paper that is not disciplinary interdisciplinary, but better than I could do by myself. I think Naomi and I both err on the side of like, yeah, this is like a bigger thing we're creating and there's parts of it that are like completely self interested and parts of it that just aren't, and that's just the way it is because hanging yourself interested in bits on something bigger is valuable and that is a tension for sure.
  
+
