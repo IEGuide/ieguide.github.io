@@ -22,6 +22,20 @@ background: '/img/posts/07.jpg'
 
 We know that communication and group work with people from diverse backgrounds are key components of interdisciplinary learning and research, but how do we logistically make this happen? Whether the goal is to teach an interdisciplinary course or creating a team of physical scientists, economists, and political scientists to investigate an environmental issue, there are several steps that can be taken to have a successful outcome. 
 
+<div>
+{% for post in site.posts  %}
+    {% if post.title contains "Anderson" %}           
+        <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+            <blockquote class="blockquote">
+            <p class="mb-0">“I would train a student to have disciplinary depth and some exposure and experience with interdisciplinary work, ...it does not mean knowing how the model works exactly, but rather means having enough exposure to the language and the questions that are of interest in that discipline, to be able to effectively collaborate with people across disciplines."</p>
+            <footer class="blockquote-footer pb-0">Dr. Sarah Anderson</footer>
+            </blockquote>
+        </a>          
+    {% endif %}
+{% endfor %}
+</div>
+
+
 
 ## Teaching
 
