@@ -1,9 +1,11 @@
 ---
 layout: page
 title: How do we teach interdisciplinary topics?
-description:  and prepare students for interdisciplinary research?
+description:
 background: '/img/posts/07.jpg'
 ---
+
+## The Challenge
 
 <div>
 {% for post in site.posts  %}
