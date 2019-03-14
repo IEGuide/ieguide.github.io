@@ -6,9 +6,9 @@ baseurl:           "/"
 url:               "http://ieguide.github.io"
 
 # Social Profiles
-twitter_username:  ieguide
+#twitter_username:  ieguide
 #github_username:   IEGuide
-facebook_username: IEGuide
+#facebook_username: IEGuide
 
 # Build settings
 markdown:          kramdown
