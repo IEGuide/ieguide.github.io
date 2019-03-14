@@ -10,6 +10,19 @@ background: '/img/posts/01.jpg'
 There are several levels to interdisciplinary learning: students may experience it by taking a class that combines several subjects, or be a part of a program that is intentionally interdisciplinary, such as the Bren school, or even attend a liberal arts college where they become interdisciplinary through the nature of their coursework. No matter the level a student is at in their education, there are patterns that emerge that foster interdisciplinarity in their learning. From our own personal experiences, talking to established faculty, and the journal papers below, we found that these patterns include when students go outside of their comfort zone and interact with other students from different backgrounds in both formal and informal settings, it creates an invaluable experience that leads to interdisciplinarity in a student. 
 
 
+<div>
+{% for post in site.posts  %}
+    {% if post.title contains "Anderson" %}           
+        <a href="{{ post.url | prepend: site.baseurl | replace: '//', '/' }}">
+            <blockquote class="blockquote">
+            <p class="mb-0">“I could imagine you having had a good interdisciplinary education but not having a paper with me. Right. But rather having a bunch of disciplinary papers. But having been in the meetings, understood how we talk to each other. Gained that understanding of what level of knowledge you need to have of another discipline in order to productively collaborate, like all that stuff, even if you haven’t gotten to the point of actually collaborating yourself. ”</p>
+            <footer class="blockquote-footer pb-0"> Dr. Sarah Anderson</footer>
+            </blockquote>
+        </a>          
+    {% endif %}
+{% endfor %}
+</div>
+
 ## Student Opinions on Interdisciplinarity and Fostering Student Buy-In
 
 In a survey of a UCSB general education natural history course, with a combination of STEM and humanities students, we found that students would rather have separate subjects taught in separate courses (Fig. 1) despite valuing an interdisciplinary/liberal arts education overall (Fig. 2). Students felt that they would rather have strong backgrounds in each separate subject before making the connections between them, however, being in this class that combined history and natural science introduced them to the potential of interdisciplinary learning and the importance of being well-rounded.
